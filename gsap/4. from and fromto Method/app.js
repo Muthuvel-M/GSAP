@@ -41,3 +41,15 @@ gsap.fromTo(".box3",{
     repeat:-1,
     yoyo:true,
 });
+
+//set
+gsap.set(".box2",{
+    opacity:0,
+    background:"yellow",
+
+});
+gsap.to(".box2",{
+    opacity:1,
+    background:"white",
+    duration:2,
+});
