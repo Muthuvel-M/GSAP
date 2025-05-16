@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+.container{
+    height: 100vh;
+    background-color: #1b1b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    color: white;
+}
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: #ffa31a;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
